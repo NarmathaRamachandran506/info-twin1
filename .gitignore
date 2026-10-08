@@ -1,0 +1,28 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Environment & credentials
+.env
+.env.local
+
+# App data & uploads
+data/uploads/*
+!data/uploads/.gitkeep
+data/*.db
+data/*.db*
+data/*.sqlite*
+data/app.db*
+
+# Node / Frontend build (if any)
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+.DS_Store
+Thumbs.db
+
